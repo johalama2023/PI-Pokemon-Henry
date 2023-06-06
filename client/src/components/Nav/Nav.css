@@ -9,3 +9,9 @@
     left: 0;
     z-index: 100;
 }
+
+@media (min-width:350px) and (max-width:700px){
+    .nav__container {
+        width: 30%;
+    }
+} 

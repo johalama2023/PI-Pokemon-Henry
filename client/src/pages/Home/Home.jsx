@@ -77,6 +77,8 @@ const Home = () => {
 
   console.log('pokeRender', pokeRender);
 
+  const showPagination = pokeRender.length > pokePerPage && pokeRender.length > 1;
+
   return (
     <div className="container__home">
       <div className="container__title__home">
@@ -84,9 +86,11 @@ const Home = () => {
           Welcome, Here you can find your favorite Pokemon
         </h2>
       </div>
-      <div className="home__pagination__top">
-        <Pagination page={page} maxPage={maxPage} setPage={setPage} />
-      </div>
+      {showPagination ? (
+          <Pagination page={page} maxPage={maxPage} setPage={setPage} />
+        ) : (
+          <div className="pagination__placeholder" />
+        )}
       <div className="container__pokemon__home">
         {pokeData === 'paginacion' ? (
           pokeRender
