@@ -11,3 +11,26 @@
     height: auto;
     padding: 30px;
 }
+.notFound__btn{
+    position: absolute;
+    top: 25%;;
+    left: 39%;
+    color: #FE1936;
+    -webkit-text-stroke: 1px #fff;
+    font-size: 30px;
+    font-weight: 800;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+    background-color: #4caf50;
+    margin-left: 20px;
+    cursor: pointer;
+    accent-color: #FE1936;
+    transition: all 0.3s ease-in-out;
+}
+.notFound__btn:hover{
+    transform: scale(1.1);
+    background-color: #4caf50;
+    color: #fff;
+}

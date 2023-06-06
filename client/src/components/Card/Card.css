@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } 
   
   .card__border {
     background-color: #1479FB;
@@ -45,7 +45,7 @@
   }
   
   
-  .card__header__container{
+  .card__header__container {
     border-radius: 8px;
     overflow: hidden;
   }
@@ -56,15 +56,12 @@
   }
   
   .card__img {
-    display: flex;
-    width: 90%;
-    z-index: 2;
-    margin: 0 auto;
-    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   
   .card__body {
-
     height: fit-content;
     background-color: #fff;
     border-radius: 8px;
