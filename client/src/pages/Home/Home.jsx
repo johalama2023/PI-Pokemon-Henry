@@ -4,7 +4,6 @@ import { useSelector } from 'react-redux';
 import { useState, useEffect } from 'react';
 import Pagination from '../../components/Pagination/Pagination';
 import { useLocation } from 'react-router-dom';
-import pokeloading from '../../assets/img/pokebola.gif'
 
 const Home = () => {
   const poke = useSelector(state => state.allPokemons);
@@ -23,7 +22,6 @@ const Home = () => {
   const [page, setPage] = useState(1);
   const [pokePerPage, setPokePerPage] = useState(12);
   const [fromDetail, setFromDetail] = useState(false); // Estado para controlar si se navegó desde el detalle
-  const [isLoading, setIsLoading] = useState(false); // Estado para controlar el estado de carga
   const initialPoke = (page - 1) * pokePerPage;
   const finalPoke = page * pokePerPage;
   const maxPage = pokeRender && Math.ceil(pokeRender.length / pokePerPage);
@@ -42,16 +40,6 @@ const Home = () => {
       setFromDetail(true);
     }
   }, [location.pathname]);
-
-  useEffect(() => {
-    // Mostrar el loading cuando se realiza una búsqueda o se cambia la página
-    setIsLoading(true);
-
-    // Simulación de una solicitud de carga de datos
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
-  }, [pokemonsByName.data, page]);
 
   if (filterApiDb.all) {
     if (pokeFilterByTypes.state) {
@@ -98,17 +86,11 @@ const Home = () => {
           Welcome, Here you can find your favorite Pokemon
         </h2>
       </div>
-      {isLoading ? (
-        <div className="loading__home">
-          <img src={pokeloading} alt="loading" />
-        </div> // Mostrar mensaje de carga mientras isLoading es true
-      ) : (
-        showPagination ? (
+      {showPagination ? (
           <Pagination page={page} maxPage={maxPage} setPage={setPage} />
         ) : (
           <div className="pagination__placeholder" />
-        )
-      )}
+        )}
       <div className="container__pokemon__home">
         {pokeData === 'paginacion' ? (
           pokeRender

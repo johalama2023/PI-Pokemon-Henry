@@ -54,11 +54,3 @@
     height: 150px;
     /* Ajusta la altura según tus necesidades */
 }
-.loading__home{
-    position: absolute;
-    background-color: transparent;
-    left: 30%;
-    top: 30%;
-    width: 50%;
-    height: 50%;
-}
