@@ -1,0 +1,48 @@
+.container__home {
+    width: 100%;
+    aspect-ratio: 4/2.02;
+    background-image: url(../../assets/img/bg-home02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.loading__home{
+    width: 30%;
+    height: 30%;
+    background-color: #FE1936;
+}
+.container__pokemon__home {
+    margin-top: -30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0 50px;
+}
+.container__title__home{
+    position: relative;
+    top: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title__home {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1px #FE1936;
+    color: #fff;
+    width: 50%;
+}
+
+.home__pagination__top{
+    top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
