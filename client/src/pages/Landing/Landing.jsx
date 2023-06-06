@@ -13,7 +13,7 @@ const Landing = () => {
             <section className='main__landing'>
                 <img className='img__landing' src={logo} alt="" />
                 <h1 className="title__landing">Hi Trainer!!</h1>
-                <p className="paragraph__landing">Give me your name to start</p>
+                <p className="paragraph__landing">Let's go for your pokemon</p>
                 <form className='form__landing'>
                     <Link to='/pokemon'><button className='btn__landing'>Go!!!</button></Link>
                 </form>
