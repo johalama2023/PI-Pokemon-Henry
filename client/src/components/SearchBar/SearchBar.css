@@ -1,18 +1,20 @@
-.container__searchBar{
+.container__searchBar {
     width: 100%;
     height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.logo__searchBar{
+
+.logo__searchBar {
     width: 250px;
     top: 0;
     left: 0;
     margin-left: 150px;
-    cursor: pointer;   
+    cursor: pointer;
 }
-.form__searchBar{
+
+.form__searchBar {
     width: 100%;
     height: 100%;
     display: flex;
@@ -21,14 +23,16 @@
     align-items: center;
     margin-right: 150px;
 }
-.checked__filter__container{
-   width: 100%;
-   height: 100px;
-   color: #fff;
-   margin: 0 15px;
-   padding: 25px 0;
+
+.checked__filter__container {
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    margin: 0 15px;
+    padding: 25px 0;
 }
-.checked__searchBar{
+
+.checked__searchBar {
     background-color: #ffffff40;
     border-radius: 5px;
     color: #fff;
@@ -38,14 +42,16 @@
     justify-content: space-around;
     align-items: center;
 }
-.title__checked__searchBar{
+
+.title__checked__searchBar {
     font-size: 25px;
     font-weight: 500;
     margin-left: 20px;
     color: #fff;
     -webkit-text-stroke: 1px #FE1936
 }
-.check__info__searchBar{
+
+.check__info__searchBar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,11 +59,13 @@
     height: 50px;
     color: #fff;
 }
-.label__searchBar{
+
+.label__searchBar {
     font-size: 20px;
     font-weight: 300;
 }
-.check__searchBar{
+
+.check__searchBar {
     width: 20px;
     height: 20px;
     border-radius: 5px;
@@ -66,8 +74,9 @@
     margin-left: 20px;
     cursor: pointer;
     accent-color: #FE1936;
-} 
-.filter__searchBar{
+}
+
+.filter__searchBar {
     background-color: #ffffff40;
     border-radius: 5px;
     color: #fff;
@@ -78,7 +87,8 @@
     align-items: center;
     margin-top: 20px;
 }
-.select__searchBar{
+
+.select__searchBar {
     width: 200px;
     height: 30px;
     border-radius: 5px;
@@ -90,25 +100,35 @@
     border: none;
     outline: none;
 }
-.option__searchBar{
+
+.option__searchBar {
     font-size: 15px;
     font-weight: 300;
 }
-.title__filter__searchBar{
+
+.title__filter__searchBar {
     font-size: 25px;
     font-weight: 500;
     margin-left: 20px;
     color: #fff;
     -webkit-text-stroke: 1px #FE1936
 }
-.title__order__searchBar{
+
+.title__order__searchBar {
     font-size: 25px;
     font-weight: 500;
     margin-left: 20px;
     color: #fff;
     -webkit-text-stroke: 1px #FE1936
 }
-.input__searchBar{
+.intro__search{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.input__searchBar {
     width: 500px;
     height: 50px;
     border-radius: 5px;
@@ -118,8 +138,10 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #828282;
+    font-family: 'Orbitron', sans-serif;
 }
-.btn__searchBar{
+
+.btn__searchBar {
     width: 100px;
     height: 50px;
     border-radius: 5px;
@@ -130,7 +152,8 @@
     color: #828282;
     margin-left: 20px;
 }
-.btn__create{
+
+.btn__create {
     width: 100px;
     height: 50px;
     border-radius: 5px;
@@ -140,4 +163,212 @@
     font-weight: 300;
     color: #828282;
     margin-left: 20px;
+}
+
+@media (max-width:750px) {
+
+    .logo__searchBar{
+        width: 200px;
+        top: 0;
+        left: 0;
+        margin-left: 100px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+    .checked__filter__container {
+        position: absolute;
+        top: 80%;
+        left: -1%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .checked__searchBar {
+        width: 90%;
+    }
+    .title__checked__searchBar {
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 20px;
+        color: #fff;
+        -webkit-text-stroke: 1px #FE1936
+    }
+    .check__info__searchBar {
+        width: 100%;
+        height: 50px;
+        color: #fff;
+    }
+    .label__searchBar{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .check__searchBar{
+        width: 15px;
+        height: 15px;
+        border-radius: 5px;
+        border: 1px solid #E5E5E5;
+        background-color: #F2F2F2;
+        margin-left: 20px;
+        cursor: pointer;
+        accent-color: #FE1936;
+    }
+    .filter__searchBar {
+        width: 90%;
+    }
+    .title__filter__searchBar{
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 20px;
+        color: #fff;
+        -webkit-text-stroke: 1px #FE1936
+    }
+    .title__order__searchBar{
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 20px;
+        color: #fff;
+        -webkit-text-stroke: 1px #FE1936
+    }
+    .intro__search{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .input__searchBar{
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #E5E5E5;
+        padding-left: 20px;
+        font-size:16px;
+        font-weight: 300;
+        color: #828282;
+    }
+    .btn__create{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #E5E5E5;
+        background-color: #F2F2F2;
+        font-size: 16px;
+        font-weight: 300;
+        color: #828282;
+        margin-left: 20px;
+    }
+}
+@media (max-width:450px){
+    .logo__searchBar{
+        position: absolute;
+        width: 180px;
+        top: 5%;
+        left: 63%;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+    .form__searchBar{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 0px;
+    }
+    .checked__filter__container{
+        position: absolute;
+        top: 60%;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .checked__searchBar{
+        background: none;
+        width: 300%;
+    }
+    .title__checked__searchBar{
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        -webkit-text-stroke: 1px #FE1936
+    }
+    .check__info__searchBar{
+        width: 100%;
+        height: 50px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .label__searchBar{
+        font-size: 13px;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 5px;
+    }
+    .filter__searchBar {
+        position: absolute;
+        top: 50%;
+        background: none;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .title__filter__searchBar{
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 20px;
+        color: #fff;
+        -webkit-text-stroke: 1px #FE1936
+    }
+    .title__order__searchBar{
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 20px;
+        color: #fff;
+        -webkit-text-stroke: 1px #FE1936
+    }
+    .intro__search{
+        position: absolute;
+        top: 8%;
+        left: 130%;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .input__searchBar{
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #E5E5E5;
+        padding-left: 20px;
+        font-size:16px;
+        font-weight: 300;
+        color: #828282;
+    }
+    .btn__create{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #E5E5E5;
+        background-color: #F2F2F2;
+        font-size: 16px;
+        font-weight: 300;
+        color: #828282;
+        margin-left: 20px;
+    }
 }

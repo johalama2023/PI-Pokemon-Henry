@@ -172,13 +172,15 @@ const SearchBar = () => {
 						</select>
 					</div>
 				</div>
-				<input type="search" id="search" className="input__searchBar" onKeyUp={handleEnter} />
-				<button onClick={handleClick} className="btn__create">
-					Create
-				</button>
-				<button className="btn__create" onClick={handleOnClick}>
-					Home
-				</button>
+				<div className="intro__search">
+					<input type="search" id="search" className="input__searchBar" onKeyUp={handleEnter} />
+					<button onClick={handleClick} className="btn__create">
+						Create
+					</button>
+					<button className="btn__create" onClick={handleOnClick}>
+						Home
+					</button>
+				</div>
 			</div>
 		</div>
 	);

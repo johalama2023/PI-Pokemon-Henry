@@ -22,7 +22,7 @@ const initialTypes = require('./src/controllers/initialTypes.js');
 const { conn } = require('./src/db.js');
 
 // Syncing all the models at once.force
-conn.sync({ alter : true }).then(() => {
+conn.sync({ force : true }).then(() => {
   server.listen(3001, () => {
     console.log('%s listening at 3001'); // eslint-disable-line no-console
     initialTypes()

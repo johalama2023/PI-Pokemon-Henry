@@ -258,3 +258,22 @@
 .fairy {
     background: var(--fairy)
 }
+
+@media (max-width:750px) {
+    .detail__stats {
+        width: 100%;
+    }
+    .detail__text{
+        font-size: 20px;
+    }
+    .bth__detail{
+        width: 80px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
+@media (max-width:450px) {
+.detail__main{
+    width: 85%;
+}
+}

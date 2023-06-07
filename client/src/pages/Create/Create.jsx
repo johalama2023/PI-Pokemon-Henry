@@ -137,7 +137,6 @@ const Create = () => {
 	return (
 
 		<div className='create__container'>
-
 			<div className="create__main">
 				<h1 className='create__title'>Create your Pokemon</h1>
 				<form onSubmit={handleSubmit} className='create__form'>
